@@ -59,7 +59,7 @@ const Services = () => {
             Our <span className="text-blue-600">Services</span>
           </h1>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            Comprehensive boat services from routine maintenance to complete restorations
+            From engine building to custom fabrication - complete marine services for Southern Arizona boat owners
           </p>
         </div>
       </section>
