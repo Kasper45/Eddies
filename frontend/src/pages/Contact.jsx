@@ -64,8 +64,8 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="font-bold text-gray-900 mb-1">Address</h3>
-                        <p className="text-gray-700">1131 N. Rook Ave</p>
-                        <p className="text-gray-700">Tucson, AZ</p>
+                        <p className="text-gray-700">3760 E 37th St</p>
+                        <p className="text-gray-700">Tucson, AZ 85713</p>
                       </div>
                     </div>
                   </CardContent>
