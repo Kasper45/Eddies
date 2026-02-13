@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Eddie's Inboard Marine</h3>
             <p className="text-gray-400 mb-4">
-              Specializing in V-drive boats for over 40 years. From routine maintenance to complete restorations.
+              Tucson's long-standing boat repair shop since 1980. Specializing in inboard marine engines, performance rigging, and custom work. Fair pricing, fast turnarounds, honest service.
             </p>
           </div>
 
