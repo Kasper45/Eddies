@@ -61,11 +61,14 @@ const About = () => {
               </div>
             </div>
             <div>
-              <img
-                src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/6243769.jpg?1356894846"
-                alt="Eddie's Inboard Marine"
-                className="rounded-lg shadow-xl"
-              />
+              <div className="rounded-lg overflow-hidden shadow-2xl">
+                <img
+                  src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/6243769.jpg?1356894846"
+                  alt="Eddie's Inboard Marine"
+                  className="w-full h-auto object-cover"
+                  loading="lazy"
+                />
+              </div>
             </div>
           </div>
         </div>
