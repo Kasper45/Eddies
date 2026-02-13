@@ -14,6 +14,7 @@ import Interior from './pages/Interior';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import FAQ from './pages/FAQ';
+import Privacy from './pages/Privacy';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/faq" element={<FAQ />} />
+            <Route path="/privacy" element={<Privacy />} />
           </Routes>
           <Footer />
           <Toaster />
