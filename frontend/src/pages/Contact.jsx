@@ -5,7 +5,6 @@ import { Input } from '../components/ui/input';
 import { Textarea } from '../components/ui/textarea';
 import { useToast } from '../hooks/use-toast';
 import { MapPin, Phone, Clock, Mail } from 'lucide-react';
-import SEO from '../components/SEO';
 
 const Contact = () => {
   const { toast } = useToast();
