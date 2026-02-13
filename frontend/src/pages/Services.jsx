@@ -109,10 +109,10 @@ const Services = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Eddie's Inboard Marine?
+              Why Southern Arizona Chooses Eddie's
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Your one-stop boat shop backed by 40+ years of experience
+              The go-to boat shop for Southern Arizona, run by Eddie McPheeters II
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -121,9 +121,9 @@ const Services = () => {
                 <span className="text-white text-xl font-bold">1</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Specialized Expertise</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Fair & Honest Pricing</h3>
                 <p className="text-gray-700">
-                  We focus exclusively on V-drive boats, giving us deep knowledge and experience that general boat shops can't match.
+                  We're known for straightforward, fair pricing with no hidden surprises. You get honest assessments and quality work at a reasonable cost.
                 </p>
               </div>
             </div>
@@ -132,9 +132,9 @@ const Services = () => {
                 <span className="text-white text-xl font-bold">2</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Quality Workmanship</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Fast Turnarounds</h3>
                 <p className="text-gray-700">
-                  Every project receives meticulous attention to detail, from routine maintenance to complete restorations.
+                  We understand you want to be on the water. Our efficient service means faster completion without compromising quality.
                 </p>
               </div>
             </div>
@@ -143,9 +143,9 @@ const Services = () => {
                 <span className="text-white text-xl font-bold">3</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Trusted Partners</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Complete Services</h3>
                 <p className="text-gray-700">
-                  We work with the best in the business, including Go West Designs for custom interiors and upholstery.
+                  Engine building, machining, painting, custom fabrication, parts, upholstery - we handle everything in-house or through trusted partners.
                 </p>
               </div>
             </div>
@@ -154,9 +154,9 @@ const Services = () => {
                 <span className="text-white text-xl font-bold">4</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Complete Service</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">40+ Years Experience</h3>
                 <p className="text-gray-700">
-                  From initial consultation to final delivery, we handle every aspect of your boat's service needs.
+                  Since 1980, Eddie McPheeters II has built a reputation throughout Southern Arizona for expertise, integrity, and quality workmanship.
                 </p>
               </div>
             </div>
