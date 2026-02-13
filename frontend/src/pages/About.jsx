@@ -47,16 +47,16 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-lg text-gray-700">
                 <p>
-                  Since opening our doors over 40 years ago, Eddie's Inboard Marine has been the premier destination for V-drive boat service in Tucson, Arizona.
+                  Eddie's Inboard Marine Equipment, run by Eddie McPheeters II, has been Tucson's trusted boat repair shop since 1980. For over four decades, we've been the go-to destination for Southern Arizona boat owners.
                 </p>
                 <p>
-                  What started as a passion for high-performance boats has evolved into a full-service shop trusted by boat owners throughout the region.
+                  We've built our reputation on three core principles: fair pricing, fast turnarounds, and honest service. Our customers know they can count on us for straightforward advice and quality work.
                 </p>
                 <p>
-                  We specialize in both pleasure and racing boats, with particular expertise in Mandella boats. Our team has built the largest Mandella clientele base, especially for the iconic 18ft SS "long deck" model.
+                  Specializing in inboard marine engines, performance rigging, and custom work, we offer comprehensive services including engine building, machining, painting, custom fabrication, parts supply, and upholstery through our trusted partners.
                 </p>
                 <p>
-                  From routine maintenance to complete custom restorations, we treat every boat as if it were our own.
+                  What started as a passion for high-performance boats has grown into a full-service marine shop known throughout the region for expertise and integrity.
                 </p>
               </div>
             </div>
