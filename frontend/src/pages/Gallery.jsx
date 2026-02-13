@@ -85,6 +85,11 @@ const Gallery = () => {
 
   return (
     <main className="pt-20">
+      <SEO 
+        title="Project Gallery - Eddie's Inboard Marine | Boat Restorations"
+        description="View our completed boat restoration projects including the Colt .45 Mandella restoration. 40+ years of quality craftsmanship in Tucson, AZ."
+        keywords="boat restoration gallery, mandella restoration, boat projects, colt 45 restoration, before and after boats"
+      />
       {/* Hero */}
       <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
