@@ -34,11 +34,6 @@ const Contact = () => {
 
   return (
     <main className="pt-20">
-      <SEO 
-        title="Contact Eddie's Inboard Marine | Tucson, AZ | 520-400-1423"
-        description="Contact Eddie's Inboard Marine at 1131 N. Rook Ave, Tucson, AZ. Call 520-400-1423. Locally owned and operated boat service with 40+ years experience."
-        keywords="boat service tucson contact, marine service tucson, eddie's inboard marine location, tucson boat repair"
-      />
       {/* Hero */}
       <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
