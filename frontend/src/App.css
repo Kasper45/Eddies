@@ -24,6 +24,8 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
 
 /* Link styles */
@@ -44,4 +46,32 @@ button:hover {
 
 button:active {
   transform: translateY(0);
+}
+
+/* Image container improvements */
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+/* Smooth image loading */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+img {
+  animation: fadeIn 0.3s ease-in;
+}
+
+/* Gallery hover effects */
+.group:hover img {
+  filter: brightness(1.05);
 }
