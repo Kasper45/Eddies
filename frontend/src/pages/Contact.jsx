@@ -226,7 +226,7 @@ const Contact = () => {
           </div>
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.4!2d-110.97!3d32.24!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDE0JzI0LjAiTiAxMTDCsDU4JzEyLjAiVw!5e0!3m2!1sen!2sus!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.89!2d-110.8924!3d32.1873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86d671a4b3f5b53f%3A0x0!2s3760%20E%2037th%20St%2C%20Tucson%2C%20AZ%2085713!5e0!3m2!1sen!2sus!4v1234567890"
               width="100%"
               height="450"
               style={{ border: 0 }}
