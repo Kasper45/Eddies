@@ -8,45 +8,45 @@ const Services = () => {
   const services = [
     {
       icon: <Ship className="w-12 h-12 text-blue-600" />,
-      title: 'Mandella Boat Service',
-      description: 'Specialized service for all Mandella boat models, with expertise in the 18ft SS "long deck"',
+      title: 'Mandella Boat Specialists',
+      description: 'Expert service for all Mandella models including the iconic 18ft SS "long deck". We have the largest Mandella clientele base in Arizona.',
       link: '/mandella-boats',
-      features: ['All Mandella models', 'Long deck specialists', 'Performance tuning']
+      features: ['All fiberglass Mandella models', 'Long deck specialists', 'Performance tuning & upgrades', 'Racing modifications']
     },
     {
       icon: <PaintBucket className="w-12 h-12 text-blue-600" />,
       title: 'Complete Restoration',
-      description: 'Full boat restoration services including fiberglass, paint, and rigging',
+      description: 'Full boat restoration from hull to interior. Fiberglass work, custom paint, complete rigging, and interior refinishing.',
       link: '/restoration',
-      features: ['Fiberglass repair', 'Custom paint', 'Complete rigging']
+      features: ['Structural fiberglass repair', 'Professional custom paint', 'Complete rigging systems', 'Interior restoration']
     },
     {
       icon: <Wrench className="w-12 h-12 text-blue-600" />,
-      title: 'Maintenance & Repair',
-      description: 'Routine maintenance and expert repairs to keep your boat running perfectly',
+      title: 'Engine Building & Repair',
+      description: 'Custom high-performance engine builds for racing and pleasure boats. Expert diagnostics, rebuilds, and performance tuning.',
       link: '/maintenance',
-      features: ['Engine service', 'V-drive maintenance', 'System diagnostics']
+      features: ['Custom engine builds', 'Performance rebuilds', 'Engine diagnostics', 'Power upgrades']
     },
     {
       icon: <Sparkles className="w-12 h-12 text-blue-600" />,
       title: 'Interior & Upholstery',
-      description: 'Custom boat interiors and upholstery through our partner Go West Designs',
+      description: 'Custom boat interiors and premium marine upholstery through our exclusive 40-year partner Go West Designs.',
       link: '/interior',
-      features: ['Custom interiors', 'Quality upholstery', 'Boat covers']
+      features: ['Custom marine interiors', 'Premium upholstery', 'Boat covers & canvas', 'Color matching']
     },
     {
       icon: <Cog className="w-12 h-12 text-blue-600" />,
-      title: 'Performance Upgrades',
-      description: 'Enhance your boat\'s performance for racing or pleasure',
+      title: 'Speed Boat Performance',
+      description: 'Specialized performance tuning for speed boats and racing applications. V-drive optimization and power system upgrades.',
       link: '/services',
-      features: ['Engine upgrades', 'Performance tuning', 'Custom modifications']
+      features: ['Speed boat tuning', 'V-drive optimization', 'Racing modifications', 'Power system upgrades']
     },
     {
       icon: <CheckCircle className="w-12 h-12 text-blue-600" />,
-      title: 'Pre-Season Prep',
-      description: 'Get your boat ready for the season with our comprehensive prep service',
+      title: 'Maintenance & Service',
+      description: 'Comprehensive maintenance from routine service to pre-season prep. V-drive systems, fluid services, and complete inspections.',
       link: '/maintenance',
-      features: ['Full inspection', 'System testing', 'Performance check']
+      features: ['Routine maintenance', 'V-drive service', 'Pre-season preparation', 'System diagnostics']
     }
   ];
 
