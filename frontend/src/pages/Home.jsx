@@ -142,17 +142,23 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-4">
-              <img
-                src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/2376633.jpg"
-                alt="Mandella Boat"
-                className="rounded-lg shadow-lg"
-              />
-              <img
-                src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/7787855.jpg"
-                alt="Boat Service"
-                className="rounded-lg shadow-lg mt-8"
-              />
+            <div className="grid grid-cols-2 gap-6">
+              <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <img
+                  src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/2376633.jpg"
+                  alt="Mandella Boat"
+                  className="w-full h-64 object-cover"
+                  loading="lazy"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 mt-8">
+                <img
+                  src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/7787855.jpg"
+                  alt="Boat Service"
+                  className="w-full h-64 object-cover"
+                  loading="lazy"
+                />
+              </div>
             </div>
           </div>
         </div>
