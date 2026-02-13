@@ -8,18 +8,18 @@ const About = () => {
   const milestones = [
     {
       icon: <Award className="w-10 h-10 text-blue-600" />,
-      title: '40+ Years',
-      description: 'Of excellence in boat service and restoration'
+      title: 'Since 1980',
+      description: 'Over 40 years serving Southern Arizona boat owners'
     },
     {
       icon: <Users className="w-10 h-10 text-blue-600" />,
-      title: 'Largest Clientele',
-      description: 'Mandella boat customer base in the region'
+      title: 'Fair & Honest',
+      description: 'Known for fair pricing, fast turnarounds, and honest service'
     },
     {
       icon: <Wrench className="w-10 h-10 text-blue-600" />,
-      title: 'Expert Team',
-      description: 'Skilled technicians with decades of experience'
+      title: 'Full Service',
+      description: 'Engine building, machining, painting, parts, and more'
     }
   ];
 
