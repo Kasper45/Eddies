@@ -16,9 +16,10 @@ const SEO = ({
     "description": description,
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "1131 N. Rook Ave",
+      "streetAddress": "3760 E 37th St",
       "addressLocality": "Tucson",
       "addressRegion": "AZ",
+      "postalCode": "85713",
       "addressCountry": "US"
     },
     "telephone": "+1-520-400-1423",
