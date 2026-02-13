@@ -32,7 +32,7 @@ const About = () => {
             About <span className="text-blue-600">Eddie's Inboard Marine</span>
           </h1>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            Four decades of dedication to V-drive boat excellence
+            Tucson's long-standing boat repair shop, serving Southern Arizona since 1980
           </p>
         </div>
       </section>
