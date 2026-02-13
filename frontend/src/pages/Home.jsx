@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 import { ArrowRight, Wrench, Ship, Sparkles, Phone } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const Home = () => {
   const services = [
