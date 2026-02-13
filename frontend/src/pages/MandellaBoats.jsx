@@ -49,11 +49,14 @@ const MandellaBoats = () => {
               </div>
             </div>
             <div>
-              <img
-                src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/2376633.jpg"
-                alt="Mandella Boat"
-                className="rounded-lg shadow-2xl"
-              />
+              <div className="rounded-lg overflow-hidden shadow-2xl">
+                <img
+                  src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/2376633.jpg"
+                  alt="Mandella Boat"
+                  className="w-full h-auto object-cover"
+                  loading="lazy"
+                />
+              </div>
             </div>
           </div>
 
