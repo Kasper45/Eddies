@@ -107,17 +107,23 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
-              <div className="grid grid-cols-2 gap-4">
-                <img
-                  src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/2376633.jpg"
-                  alt="Mandella Boat"
-                  className="rounded-lg shadow-lg"
-                />
-                <img
-                  src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/262167.jpg"
-                  alt="Boat Detail"
-                  className="rounded-lg shadow-lg mt-8"
-                />
+              <div className="grid grid-cols-2 gap-6">
+                <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                  <img
+                    src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/2376633.jpg"
+                    alt="Mandella Boat"
+                    className="w-full h-64 object-cover"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 mt-8">
+                  <img
+                    src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/262167.jpg"
+                    alt="Boat Detail"
+                    className="w-full h-64 object-cover"
+                    loading="lazy"
+                  />
+                </div>
               </div>
             </div>
             <div className="order-1 lg:order-2">
