@@ -109,14 +109,14 @@ const Gallery = () => {
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-            <div className="rounded-lg overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2">
+            <div className="relative rounded-lg overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2 group">
               <img
                 src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/7949502.jpeg"
                 alt="Colt 45 Complete"
-                className="w-full h-96 object-cover"
+                className="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <span className="text-blue-400 text-sm font-semibold uppercase">Featured Project</span>
                   <h3 className="text-white text-2xl font-bold mt-1">Colt .45 Restoration</h3>
@@ -128,7 +128,7 @@ const Gallery = () => {
                 <img
                   src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/836837.jpeg"
                   alt="Colt 45 Detail"
-                  className="w-full h-44 object-cover"
+                  className="w-full h-44 object-cover hover:scale-105 transition-transform duration-300"
                   loading="lazy"
                 />
               </div>
@@ -136,7 +136,7 @@ const Gallery = () => {
                 <img
                   src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/5698658.jpeg"
                   alt="Colt 45 Work"
-                  className="w-full h-44 object-cover"
+                  className="w-full h-44 object-cover hover:scale-105 transition-transform duration-300"
                   loading="lazy"
                 />
               </div>
