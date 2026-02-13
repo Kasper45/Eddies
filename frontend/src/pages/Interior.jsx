@@ -38,11 +38,14 @@ const Interior = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <img
-                src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/1225196.jpg"
-                alt="Boat Interior"
-                className="rounded-lg shadow-2xl"
-              />
+              <div className="rounded-lg overflow-hidden shadow-2xl">
+                <img
+                  src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/1225196.jpg"
+                  alt="Boat Interior"
+                  className="w-full h-auto object-cover"
+                  loading="lazy"
+                />
+              </div>
             </div>
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
