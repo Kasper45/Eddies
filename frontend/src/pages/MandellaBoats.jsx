@@ -66,18 +66,20 @@ const MandellaBoats = () => {
               Mandella Gallery
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="space-y-8">
+              <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
                 <img
                   src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/7787855.jpg"
                   alt="Mandella Boat Detail"
-                  className="rounded-lg shadow-lg w-full hover:shadow-2xl transition-shadow duration-300"
+                  className="w-full h-80 object-cover"
+                  loading="lazy"
                 />
               </div>
-              <div className="space-y-8">
+              <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
                 <img
                   src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/262167.jpg"
                   alt="Mandella Long Deck"
-                  className="rounded-lg shadow-lg w-full hover:shadow-2xl transition-shadow duration-300"
+                  className="w-full h-80 object-cover"
+                  loading="lazy"
                 />
               </div>
             </div>
