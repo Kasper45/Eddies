@@ -53,6 +53,11 @@ const Services = () => {
 
   return (
     <main className="pt-20">
+      <SEO 
+        title="Boat Services - Eddie's Inboard Marine | Tucson, AZ"
+        description="Comprehensive boat services including Mandella specialist service, complete restoration, engine building, maintenance, and custom interiors. 40+ years of trusted service."
+        keywords="boat service, boat restoration, engine building, v-drive service, mandella service, boat maintenance, marine upholstery, speed boat tuning"
+      />
       {/* Hero */}
       <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
