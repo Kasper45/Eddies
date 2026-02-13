@@ -31,10 +31,13 @@ const Home = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                Your Trusted <span className="text-blue-600">V-Drive Boat</span> Experts
+                Southern Arizona's Trusted <span className="text-blue-600">Inboard Marine</span> Experts
               </h1>
-              <p className="text-xl text-gray-700 mb-8">
-                Over 40 years of experience specializing in V-drive boats for pleasure and racing. From routine maintenance to complete restorations.
+              <p className="text-xl text-gray-700 mb-4">
+                Eddie's Inboard Marine Equipment is Tucson's long-standing boat repair shop, specializing in inboard marine engines, performance rigging, and custom work.
+              </p>
+              <p className="text-lg text-gray-600 mb-8">
+                Fair pricing • Fast turnarounds • Honest service since 1980
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contact">
