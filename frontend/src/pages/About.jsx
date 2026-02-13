@@ -132,21 +132,27 @@ const About = () => {
               </h2>
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">V-Drive Specialists</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Inboard Marine Engines</h3>
                   <p className="text-gray-700">
-                    We focus exclusively on V-drive boats, giving us unmatched expertise in this specialized field.
+                    Expert service, repair, and custom engine building for all inboard marine applications.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Mandella Masters</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Performance Rigging</h3>
                   <p className="text-gray-700">
-                    As Mandella specialists, we service all models with particular expertise in the 18ft SS "long deck".
+                    Professional rigging services to optimize your boat's performance for pleasure or racing.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Complete Solutions</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Custom Work & Fabrication</h3>
                   <p className="text-gray-700">
-                    From maintenance to full restorations, we're your one-stop boat shop.
+                    Machining, painting, custom fabrication - we handle specialized projects with precision.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Parts & Upholstery</h3>
+                  <p className="text-gray-700">
+                    Complete parts supply and upholstery services through our trusted partners.
                   </p>
                 </div>
               </div>
