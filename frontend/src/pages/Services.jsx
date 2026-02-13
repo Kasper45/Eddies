@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
 import { Wrench, Ship, Sparkles, PaintBucket, Cog, CheckCircle, ArrowRight } from 'lucide-react';
-import SEO from '../components/SEO';
 
 const Services = () => {
   const services = [
