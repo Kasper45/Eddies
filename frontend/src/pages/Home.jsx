@@ -26,6 +26,11 @@ const Home = () => {
 
   return (
     <main className="pt-20">
+      <SEO 
+        title="Eddie's Inboard Marine - V-Drive Boat Specialists | Tucson, AZ"
+        description="40+ years specializing in V-drive boats, Mandella specialists, complete restoration, engine building, and maintenance. Locally owned and operated in Tucson, Arizona."
+        keywords="boat service tucson, v-drive boats, mandella boats, boat restoration tucson, marine service arizona, boat engine building, speed boats, inboard marine"
+      />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-50 to-blue-100 py-20 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
