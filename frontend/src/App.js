@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import { Toaster } from './components/ui/toaster';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
@@ -31,6 +32,7 @@ function App() {
           <Route path="/faq" element={<FAQ />} />
         </Routes>
         <Footer />
+        <Toaster />
       </BrowserRouter>
     </div>
   );
