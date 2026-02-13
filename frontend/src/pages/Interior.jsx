@@ -114,18 +114,20 @@ const Interior = () => {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
+            <div className="rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
               <img
                 src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/2694497.jpg"
                 alt="Custom Interior Work"
-                className="rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300"
+                className="w-full h-80 object-cover"
+                loading="lazy"
               />
             </div>
-            <div>
+            <div className="rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
               <img
                 src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/3586495.jpg"
                 alt="Upholstery Detail"
-                className="rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300"
+                className="w-full h-80 object-cover"
+                loading="lazy"
               />
             </div>
           </div>
