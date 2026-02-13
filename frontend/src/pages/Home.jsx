@@ -112,31 +112,49 @@ const Home = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-                40+ Years of Excellence
+                Southern Arizona's Go-To Marine Shop
               </h2>
               <p className="text-lg text-gray-700 mb-6">
-                Eddie's Inboard Marine has been the trusted name in V-drive boat service and restoration for over four decades. Our expertise spans all aspects of boat care, from routine maintenance to complete custom restorations.
+                Run by Eddie McPheeters II, Eddie's Inboard Marine Equipment has been Tucson's trusted boat repair shop since 1980. We're known throughout Southern Arizona for our expertise, integrity, and commitment to excellence.
               </p>
-              <ul className="space-y-4">
-                <li className="flex items-start">
-                  <div className="w-6 h-6 rounded-full bg-blue-600 flex items-center justify-center mr-3 mt-1 flex-shrink-0">
+              <div className="space-y-4 mb-8">
+                <div className="flex items-start">
+                  <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center mr-4 mt-1 flex-shrink-0">
                     <span className="text-white text-sm">✓</span>
                   </div>
-                  <span className="text-gray-700">Largest Mandella clientele base in the region</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="w-6 h-6 rounded-full bg-blue-600 flex items-center justify-center mr-3 mt-1 flex-shrink-0">
+                  <div>
+                    <h3 className="font-bold text-gray-900 mb-1">Fair & Honest Pricing</h3>
+                    <p className="text-gray-700">No surprises - just straightforward, honest pricing you can trust</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center mr-4 mt-1 flex-shrink-0">
                     <span className="text-white text-sm">✓</span>
                   </div>
-                  <span className="text-gray-700">Expert technicians with decades of experience</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="w-6 h-6 rounded-full bg-blue-600 flex items-center justify-center mr-3 mt-1 flex-shrink-0">
+                  <div>
+                    <h3 className="font-bold text-gray-900 mb-1">Fast Turnarounds</h3>
+                    <p className="text-gray-700">We understand you want to be on the water, not waiting for repairs</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center mr-4 mt-1 flex-shrink-0">
                     <span className="text-white text-sm">✓</span>
                   </div>
-                  <span className="text-gray-700">Custom solutions for pleasure and racing boats</span>
-                </li>
-              </ul>
+                  <div>
+                    <h3 className="font-bold text-gray-900 mb-1">Complete Services</h3>
+                    <p className="text-gray-700">Engine building, machining, painting, parts, upholstery - we handle it all</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                    <span className="text-white text-sm">✓</span>
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-gray-900 mb-1">Expert Craftsmanship</h3>
+                    <p className="text-gray-700">Decades of experience in custom work and performance rigging</p>
+                  </div>
+                </div>
+              </div>
               <div className="mt-8">
                 <Link to="/about">
                   <Button className="bg-blue-600 hover:bg-blue-700 text-white">
