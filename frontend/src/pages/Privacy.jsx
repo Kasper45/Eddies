@@ -3,11 +3,6 @@ import React from 'react';
 const Privacy = () => {
   return (
     <main className="pt-20">
-      <SEO 
-        title="Privacy Policy - Eddie's Inboard Marine"
-        description="Privacy policy for Eddie's Inboard Marine website."
-        robots="noindex, nofollow"
-      />
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-8">Privacy Policy</h1>
