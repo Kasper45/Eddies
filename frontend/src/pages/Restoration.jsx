@@ -82,31 +82,43 @@ const Restoration = () => {
               </div>
             </div>
             <div>
-              <img
-                src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/7949502.jpeg"
-                alt="Colt 45 Restoration"
-                className="rounded-lg shadow-2xl"
-              />
+              <div className="rounded-lg overflow-hidden shadow-2xl">
+                <img
+                  src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/7949502.jpeg"
+                  alt="Colt 45 Restoration"
+                  className="w-full h-auto object-cover"
+                  loading="lazy"
+                />
+              </div>
             </div>
           </div>
 
           {/* Gallery Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <img
-              src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/836837.jpeg"
-              alt="Restoration Detail"
-              className="rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
-            />
-            <img
-              src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/5698658.jpeg"
-              alt="Restoration Progress"
-              className="rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
-            />
-            <img
-              src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/8560597.jpg"
-              alt="Restoration Complete"
-              className="rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
-            />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+              <img
+                src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/836837.jpeg"
+                alt="Restoration Detail"
+                className="w-full h-72 object-cover"
+                loading="lazy"
+              />
+            </div>
+            <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+              <img
+                src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/5698658.jpeg"
+                alt="Restoration Progress"
+                className="w-full h-72 object-cover"
+                loading="lazy"
+              />
+            </div>
+            <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+              <img
+                src="https://eddiesinboardmarine.com/uploads/3/5/0/4/35040330/8560597.jpg"
+                alt="Restoration Complete"
+                className="w-full h-72 object-cover"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
       </section>
