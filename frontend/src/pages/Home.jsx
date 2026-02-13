@@ -8,18 +8,18 @@ const Home = () => {
   const services = [
     {
       icon: <Ship className="w-12 h-12 text-blue-600" />,
-      title: 'Mandella Specialist',
-      description: 'Expert service for all Mandella boat models, especially the 18ft SS "long deck"'
+      title: 'Inboard Marine Engines',
+      description: 'Expert service and repair for all inboard marine engines. Engine building, diagnostics, and performance tuning.'
     },
     {
       icon: <Wrench className="w-12 h-12 text-blue-600" />,
-      title: 'Complete Restoration',
-      description: 'Professional boat restoration from hull to interior, bringing boats back to life'
+      title: 'Performance Rigging',
+      description: 'Professional rigging services for optimal boat performance, from routine adjustments to complete custom rigging.'
     },
     {
       icon: <Sparkles className="w-12 h-12 text-blue-600" />,
-      title: 'Maintenance & Repair',
-      description: 'Routine maintenance and expert repairs for V-drive boats'
+      title: 'Custom Fabrication',
+      description: 'Custom fabrication work, machining, painting, and specialized modifications for your unique needs.'
     }
   ];
 
