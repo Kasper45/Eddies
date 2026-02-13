@@ -78,8 +78,8 @@ const Privacy = () => {
               </p>
               <div className="mt-4 text-gray-700">
                 <p><strong>Eddie's Inboard Marine</strong></p>
-                <p>1131 N. Rook Ave</p>
-                <p>Tucson, AZ</p>
+                <p>3760 E 37th St</p>
+                <p>Tucson, AZ 85713</p>
                 <p>Phone: 520-400-1423</p>
               </div>
             </section>
